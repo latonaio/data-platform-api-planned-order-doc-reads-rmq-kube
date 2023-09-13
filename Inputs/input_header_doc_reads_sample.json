@@ -1,0 +1,25 @@
+{
+  "connection_key": "request",
+  "result": true,
+  "redis_key": "abcdefg",
+  "filepath": "/var/lib/aion/Data/rededge_sdc/abcdef.json",
+  "api_status_code": 200,
+  "runtime_session_id": "boi9ar543dg91ipdnspi099u231280ab0v8af0ew",
+  "business_partner": 201,
+  "service_label": "PLANNED_ORDER_DOC",
+  "api_type": "reads",
+  "PlannedOrder": {
+    "PlannedOrder": 1,
+    "DocType": "QRCODE",
+    "DocIssuerBusinessPartner": 201,
+    "ItemDoc": {
+      "PlannedOrderItem": null,
+      "DocType": "",
+      "DocIssuerBusinessPartner": null
+    }
+  },
+  "api_schema": "DPFMPlannedOrderDocReads",
+  "accepter": [
+    "HeaderDoc"
+  ]
+}
